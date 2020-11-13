@@ -5,12 +5,22 @@
   "description": "https://www.youtube.com/playlist?list=PLEUkJQfJdxsTOTwx2S6whsi98k2L5XtzY",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "wdio run wdio.conf.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shpyrkova/js-ui-wdio.git"
   },
   "license": "MIT",
-  "homepage": "https://github.com/shpyrkova/js-ui-wdio#readme"
+  "homepage": "https://github.com/shpyrkova/js-ui-wdio#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@wdio/cli": "^6.7.4",
+    "@wdio/local-runner": "^6.7.3",
+    "@wdio/mocha-framework": "^6.7.3",
+    "@wdio/spec-reporter": "^6.7.0",
+    "@wdio/sync": "^6.7.3",
+    "chromedriver": "^86.0.0",
+    "wdio-chromedriver-service": "^6.0.4"
+  }
 }
